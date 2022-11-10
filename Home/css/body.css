@@ -3,23 +3,18 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
+  background: url(../img/Home_Page_Background.jpg);
+  background-size: contain;
+  overflow: auto;
   width: 100%;
   height: 100%;
-  font-size: 14px;
-  font: normal;
-  background-color: purple;
 }
 
 #logo {
   width: 150px;
   height: auto;
-}
-
-body {
-  background: url(../img/Home_Page_Background.jpg);
-  background-size: contain;
-  overflow: auto;
 }
 
 .nav {
@@ -47,9 +42,42 @@ body {
   transition: 300ms;
 }
 
-.active, .nav a:hover {
-  background-color: rgba(255, 255, 255, 0.405);
+.active,
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.662);
   color: brown;
   width: 75%;
   font-weight: 900;
+}
+
+.ContentCon {
+  background-color: rgba(255, 255, 255, 0.446);
+  width: 1500px;
+  height: 400px;
+  transform: translate(55%, 30%);
+  border: 1px solid gray;
+  padding: 8px;
+}
+.ContentCon .innerContainer {
+  background-color: rgba(255, 0, 0, 0.418);
+  margin: 30px;
+  width: 650px;
+  height: auto;
+  border: 1px solid gray;
+}
+.ContentCon h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4caf50;
+}
+.ContentCon p {
+  padding: 15px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.LandingContainer01 {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=body.css.map */
