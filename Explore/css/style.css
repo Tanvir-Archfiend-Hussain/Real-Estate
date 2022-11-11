@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(../img/Background01.jpg);
+  background-blend-mode: luminosity;
 }
 
 .container {
@@ -26,7 +28,7 @@ body {
 }
 
 .portfolio-item .item {
-  /*width:303px;*/
+  width: 303px;
   float: left;
   margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
