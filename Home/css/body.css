@@ -80,4 +80,8 @@ body {
 .LandingContainer01 {
   display: flex;
   flex-direction: row;
+}
+
+.innerContainer {
+  text-align: center;
 }/*# sourceMappingURL=body.css.map */
