@@ -158,4 +158,6 @@ button:hover::after {
 }
 .infoButton {
   margin: 15px;
+  margin-top: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=button.css.map */

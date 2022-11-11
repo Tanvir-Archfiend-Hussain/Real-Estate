@@ -21,7 +21,7 @@ body {
   width: 350px;
   height: auto;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 0;
   padding-top: 120px;
 }
@@ -33,7 +33,6 @@ body {
   font-weight: bold;
   display: list-item;
   width: 195px;
-
   margin: 5px 0;
   background-color: red;
   color: white;
@@ -55,7 +54,7 @@ body {
   background-color: rgba(255, 255, 255, 0.446);
   width: 1500px;
   height: 400px;
-  transform: translate(55%, 30%);
+  transform: translate(55%, 230%);
   border: 1px solid gray;
   padding: 8px;
 
@@ -70,7 +69,8 @@ body {
   h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #4caf50;
+    color: #ffffff;
+    margin: 10px;
   }
 
   p {
