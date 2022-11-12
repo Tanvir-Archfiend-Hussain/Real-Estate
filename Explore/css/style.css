@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../img/Background01.jpg);
-  background-blend-mode: luminosity;
+  background-image: url(../img/background02.jpeg), linear-gradient(black, black);
+  background-color: black;
 }
 
 .container {
