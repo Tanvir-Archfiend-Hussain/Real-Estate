@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
@@ -20,24 +20,24 @@
                     <li><a href="index.html">Log In</a></li>
                 </ul>
             </nav>
-        </div>>
-    
-    <div class="loginbox">
-        <form>
-            <img class="avater" src="Themis-icon.png" >
-            <h1>Login Here</h1>
+        </div>
+        
+        <div class="loginbox">
+            <form>
+                <img class="avater" src="img/Themis-icon.png" >
+                <h1>Login Here</h1>
 
-            <p style="margin-bottom: 15px;">Username</p>
-            <input type="text" name="" placeholder="Enter Username">
+                <p style="margin-bottom: 15px;">Username</p>
+                <input type="text" name="" placeholder="Enter Username">
 
-            <p style="margin-bottom: 15px;">Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            
-            <input type="submit" name="" value="Login" style="margin-top: 15px;">
-            <br><a href="#" onclick="NoPassFunc()">Don't have a Password?</a></br>
-            <a href="#" onclick="NoAccountFunc()">Don't have an account</a>
-        </form>
-    </div>
+                <p style="margin-bottom: 15px;">Password</p>
+                <input type="password" name="" placeholder="Enter Password">
+                
+                <input id="submit" type="submit" name="" value="Login" style="margin-top: 15px;">
+                <br><a href="#" onclick="NoPassFunc()">Don't have a Password?</a></br>
+                <a href="#" onclick="NoAccountFunc()">Don't have an account</a>
+            </form>
+        </div>
 
     <script>
         function NoAccountFunc() {
