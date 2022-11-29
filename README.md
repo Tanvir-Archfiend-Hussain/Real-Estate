@@ -2,4 +2,10 @@
  
 This project was designed for me to learn how to link HTML files and work with videos and CSS.
 
-JAVASCRIPT HTML CSS
+#### Tools
+- JavaScript
+- HTML
+- CSS
+- SCSS
+
+ <img src="img/pokiImage.jpg" alt="" />
