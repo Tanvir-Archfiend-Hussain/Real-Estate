@@ -9,5 +9,6 @@ This project was designed for me to learn how to link HTML files and work with v
 - HTML
 - CSS
 - SCSS
+Write down others
 
  
